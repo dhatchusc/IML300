@@ -93,8 +93,8 @@ iframe {
 }
 
 #left_sketch {
-   position: absolute;
-width: 976px;
+  position: absolute;
+width: 688px;
 height: 1117px;
 left: 0px;
 top: calc(50% - 1117px/2);
@@ -102,8 +102,8 @@ top: calc(50% - 1117px/2);
 }
 
 #right_sketch {
-      position: absolute;
-width: 976px;
+position: absolute;
+width: 688px;
 height: 1117px;
 right: 0px;
 top: calc(50% - 1117px/2);
