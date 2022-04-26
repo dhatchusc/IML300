@@ -1,6 +1,66 @@
 body {
-    background-color: lime;
+    background-color: white;
 }
+
+/* titles */
+
+#main_title {
+/* Biracial Babies Grow into Biracial Adults */
+position: absolute;
+width: 1658px;
+height: 64px;
+left: calc(50% - 1658px/2 - 1px);
+bottom: 62px;
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 800;
+font-size: 53px;
+line-height: 64px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFE600;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.section_title {
+/* Gallery */
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 84px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFE600;
+}
+
+#left_section_title {
+/* Gallery */
+position: absolute;
+width: 273px;
+height: 84px;
+left: calc(50% - 273px/2 - 576.5px);
+top: 38px;
+
+}
+
+#middle_section_title {
+/* Gallery */
+/* Information */
+position: absolute;
+width: 456px;
+height: 84px;
+left: calc(50% - 456px/2 - 1px);
+top: 38px;
+}
+
 
 img{
     height: windowHeight;
