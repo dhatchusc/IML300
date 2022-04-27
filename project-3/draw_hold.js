@@ -97,8 +97,8 @@ function gotData(data) {
 
 // inside canvas
 function mouseDragged() {
-  fill(0);
-  circle(mouseX, mouseY, 5);
+  fill(255, 230, 0);
+  circle(mouseX, mouseY, 7);
 }
 
 function gotFile(file) {
