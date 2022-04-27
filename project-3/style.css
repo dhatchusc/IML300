@@ -216,3 +216,14 @@ canvas {
   margin-right: 15px;
   width: 80px;
 }
+
+/* Galery page stuff*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
