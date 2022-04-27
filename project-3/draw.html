@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Firebase p5.js Canvas Demo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <!-- Include firebase scripts from CDN      -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase.js"></script>
+    <!-- Include p5js scripts from CDN      -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+<!--    <script src="script.js"></script>-->
+    <script src="draw_hold.js" defer></script>
+    
+    
+     <link rel="stylesheet" href="style.css">  
+    <style>
+        body {
+            height: 4000px;
+            background: linear-gradient(141deg, #777777 0%, #333333 50%, #101010 75%);
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 class="section_page_title">Draw</h1>
+
+
+    <div id="container">
+        <h2>Firebase p5.js Canvas Demo</h2>
+        <p>Draw or/and drop an image on the canvas, then click the 'save' button.</p>
+        <div id="canvasContainer"></div>
+
+        <button id="saveButton">save</button>
+        <button id="clearButton">clear</button>
+
+        <div id="drawingContainer"></div>
+    </div>
+
+
+</body></html>

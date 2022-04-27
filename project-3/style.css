@@ -72,6 +72,36 @@ body {
 }
 
 
+
+
+.section_page_title {
+    /* Gallery */
+
+
+    position: absolute;
+    width: 393px;
+    height: 84px;
+    left: calc(50% - 393px/2 - 0.5px);
+    top: 70px;
+
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 84px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFE600;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+/* p5js skecthes */
+
 /*
 
 iframe {
@@ -81,8 +111,10 @@ iframe {
 }
 */
 
+
+
 #middle_sketch {
-      width: 576px;
+    width: 576px;
     height: 1117px;
     position: absolute;
     width: 576px;
@@ -93,19 +125,67 @@ iframe {
 }
 
 #left_sketch {
-  position: absolute;
-width: 688px;
-height: 1117px;
-left: 0px;
-top: calc(50% - 1117px/2);
+    position: absolute;
+    width: 688px;
+    height: 1117px;
+    left: 0px;
+    top: calc(50% - 1117px/2);
 
 }
 
 #right_sketch {
-position: absolute;
-width: 688px;
-height: 1117px;
-right: 0px;
-top: calc(50% - 1117px/2);
+    position: absolute;
+    width: 688px;
+    height: 1117px;
+    right: 0px;
+    top: calc(50% - 1117px/2);
 
+}
+
+
+/* draw page stuff*/
+
+
+#container {
+
+  margin-top: 30px;
+  text-align: center;
+}
+
+input {
+  height: 40px;
+  border: 1px solid #c4c4c4;
+  border-radius: 15px;
+  background-color: transparent;
+  padding: 5px 10px 5px 10px;
+  /*   padding: 10px; */
+}
+
+
+button {
+  height: 40px;
+  border: 1px solid #c4c4c4;
+  border-radius: 15px;
+  /*   background-color: transparent; */
+  padding: 5px 10px 5px 10px;
+}
+
+canvas {
+  border-radius: 17px;
+  border: 1px solid black;
+  margin: 15px;
+}
+
+#drawingContainer{
+/*   background-color: green; */
+  margin-top: 20px;
+}
+
+.smallImage{
+  border-radius: 17px;
+  border: 1px solid blue;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 80px;
 }
