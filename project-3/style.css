@@ -2,7 +2,22 @@ body {
     background-color: white;
 }
 
-/* titles */
+/* titles and text */
+a{
+    text-decoration: none;
+    color: #FFE600;
+}
+
+p{
+    font-family: 'Syne';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+
+color: #FFE600;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 #main_title {
     /* Biracial Babies Grow into Biracial Adults */
@@ -75,30 +90,42 @@ body {
 
 
 .section_page_title {
-    /* Gallery */
-
-
-    position: absolute;
-    width: 393px;
-    height: 84px;
-    left: calc(50% - 393px/2 - 0.5px);
-    top: 70px;
-
     font-family: 'Syne';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 70px;
-    line-height: 84px;
-    /* identical to box height */
+font-style: normal;
+font-weight: 800;
+font-size: 70px;
+line-height: 84px;
+/* identical to box height */
 
-    text-align: center;
+text-align: center;
 
-    color: #FFE600;
+color: #FFE600;
 
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
+.back_title{
+    
+    /* Home */
+
+position: fixed;
+width: 239px;
+height: 84px;
+left: 9px;
+bottom: 0px;
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 84px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFE600;
+}
 
 /* p5js skecthes */
 
