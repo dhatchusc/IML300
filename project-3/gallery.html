@@ -8,7 +8,7 @@
 <head>
     <style>
         body {
-            height: 2300px;
+            height: 3250px;
             background: linear-gradient(141deg, #e0e0e0 0%, #c9c9c9 50%, #a3a0a0 75%);
         }
 
@@ -35,112 +35,237 @@
             <div class="accordian">
                 <input type="image" class="image-button" src="/project-3/asset/Bennie_Adult.jpg" name="Adult_Bennie" alt="Adult Bennie: Quote" />
                 <div class="accordian_content">
-                   <img class="baby_pictures" src="/project-3/asset/Bennie_Baby.jpg" alt="Baby Bennoe">
-                    <p class="person_name">Bennie</p>
-                    <p class="person_quote">"quaters and stuff"</p>
+                    <img class="baby_pictures" src="/project-3/asset/Bennie_Baby.jpg" alt="Baby Bennie">
+                    <p class="person_name">Bennie<br> </p>
+                    <p class="person_quote">“If I had a penny for every person who ever said to me “you look exotic” or “you look ethnically ambiguous” I would be financially stable”</p>
                 </div>
             </div>
-
-
-            <!-- DO THIS TO THE REST OF THE PICTURES-->
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Soul_Adult.jpg" alt="Adult Soul: Quote">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Sunya_Adult.jpeg" alt="Adult Sunya: Quote">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Max_Adult.jpg" alt="Adult Max: Quote">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Victoria_Adult.jpg" alt="Adult Victoria: Quote">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Veronica_Adult.jpeg" alt="Adult Veronica: Quote">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Mila_Adult.jpg" alt="Adult Mila: Quote">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Briana_Adult.jpg" alt="Adult Briana: Quote">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Ashely_Adult.jpg" alt="Adult Ashley: Quote">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Isa_Adult.jpg" alt="Adult Isa: Quote">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Julia_Adult.jpg" alt="Adult Julia: No Quote">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Johnas_Adult.jpg" alt="Adult Johans: No Quote">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Leila_Adult.jpg" alt="Adult Leila: No Quote">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Destinee_Adult.jpg" alt="Adult Destinee: No Quote">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Alexa_Adult.jpg" alt="Adult Alexa: No Quote">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Ben_Adult.jpg" alt="Adult Ben: No Quote ">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Jaliyah_Adult.jpeg" alt="Adult Jaliyah: No Quote ">
-            </div>
-
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Halle_Adult.jpeg" alt="Adult Halle: No Quote ">
-            </div>
-
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Nolan_Adult.jpeg" alt="Adult Nolan: No Quote ">
-            </div>
-
-            <div class="grid-item">
-                <img src="/project-3/asset/Darcy2_Adult.jpg" alt="Adult Darcy:Quote ">
-            </div>
-
-
         </div>
 
-        <script>
-            document.querySelectorAll('.image-button').forEach(image => {
-                image.addEventListener('click',() =>{
-                    const accordianContent = image.nextElementSibling;
-                    
-                    image.classList.toggle('image-button--active');
-                    
-                    if(image.classList.contains('image-button--active')){
-                        accordianContent.style.maxHeight = accordianContent.scrollHeight + 'px';
-                    }else{
-                        accordianContent.style.maxHeight = 0;
-                    }
-                });
-            });
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Soul_Adult.jpg" name="Adult_Soul" alt="Adult Soul: Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Soul_Baby.jpg" alt="Baby Soul">
+                    <p class="person_name">Soul</p>
+                    <p class="person_quote">“I’ve been called exotic, foreign (despite being born in the U.S), a tiger, and so many other strange things.”</p>
+                </div>
+            </div>
+        </div>
 
-        </script>
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Sunya_Adult.jpeg" name="Adult_Sunya" alt="Adult Sunya: Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Sunya_Baby.jpeg" alt="Baby Sunya">
+                    <p class="person_name">Sunya</p>
+                    <p class="person_quote">“The colorism definitely took place in my “desexualization” and being equated with masculinity which definitely affected who I am today.”</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Max_Adult.jpg" name="Adult Max" alt="Adult Max: Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Max_Baby.jpg" alt="Baby Max">
+                    <p class="person_name">Max</p>
+                    <p class="person_quote">“I’m half white and Filipino. People just see me as white or even Mexican sometimes and the media probably sees me as white.”</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Victoria_Adult.jpg" name="Adult Victoria" alt="Adult Victoria: Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Victoria_Baby.jpg" alt="Baby Victoria">
+                    <p class="person_name">Victoria</p>
+                    <p class="person_quote">“Strangely enough I identify and relate to Chinese representation so much more than white because, I don’t know, I guess sometimes I forget that I am white.”</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Veronica_Adult.jpeg" name="Adult Veronica" alt="Adult Veronica: Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Veronica_Baby.jpeg" alt="Baby Veronica">
+                    <p class="person_name">Veronica</p>
+                    <p class="person_quote">“There is a general engrained hatred of black people in Mexican culture which made growing up hard because I wanted so badly to fit in to my Mexican heritage, but it angered people and made it hard for me to feel fully a part of it.”</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Mila_Adult.jpg" name="Adult Mila" alt="Adult Mila: Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Mila_Baby.JPG" alt="Baby Mila">
+                    <p class="person_name">Milla</p>
+                    <p class="person_quote">“I see people who want to just pick and choose their baby’s race like it’s a game, and not a real person who’s going to have to grapple with their racial identity and the intricacies that come with it.”</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Briana_Adult.jpg" name="Adult Briana" alt="Adult Briana: Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Briana_Baby.jpg" alt="Baby Briana">
+                    <p class="person_name">Briana</p>
+                    <p class="person_quote">“Ever since I began to embrace my natural curls, people began to ask me about my ethnicity.”</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Ashely_Adult.jpg" name="Adult Ashely" alt="Adult Ashely: Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Ashley_Baby.jpg" alt="Baby Ashely">
+                    <p class="person_name">Ashely</p>
+                    <p class="person_quote">"i am a mutt"</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Isa_Adult.jpg" name="Adult Isa" alt="Adult Isa: Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Isa_Child.jpg" alt="Baby isa">
+                    <p class="person_name">Isa</p>
+                    <p class="person_quote">"I included a picture with me and my mom because I was gonna talk about how I look pretty different from her."</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Julia_Adult.jpg" name="Adult Julia" alt="Adult Julia: No Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Julia_Baby.jpg" alt="Baby Julia">
+                    <p class="person_name">Julia</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Johnas_Adult.jpg" name="Adult Johans" alt="Adult Johans: No Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Johnas_Baby.jpg" alt="Baby Johans">
+                    <p class="person_name">Johans</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Leila_Adult.jpg" name="Adult Leila" alt="Adult Leila: No Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Leila_Baby.jpg" alt="Baby Leila">
+                    <p class="person_name">Leila</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Destinee_Adult.jpg" name="Adult Destinee" alt="Adult Destinee: No Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Destinee_Baby.jpg" alt="Baby Destinee">
+                    <p class="person_name">Destinee</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Alexa_Adult.jpg" name="Adult Alexa" alt="Adult Alexa: No Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Alexa_Baby.jpg" alt="Baby Alexa">
+                    <p class="person_name">Alexa</p>
+                </div>
+            </div>
+        </div>
+        
+           <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Ben_Adult.jpg" name="Adult Ben" alt="Adult Ben: No Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Ben_Baby.jpg" alt="Baby Ben">
+                    <p class="person_name">Ben</p>
+                </div>
+            </div>
+        </div>
+
+         <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Jaliyah_Adult.jpeg" name="Adult Jaliyah" alt="Adult Jaliyah: No Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Jaliyah_Baby.jpeg" alt="Baby Jaliyah">
+                    <p class="person_name">Jaliyah</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Halle_Adult.jpeg" name="Adult Halle" alt="Adult Halle: No Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Halle_Baby.jpeg" alt="Baby Halle">
+                    <p class="person_name">Halle</p>
+                </div>
+            </div>
+        </div>
+    
+              <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Nolan_Adult.jpeg" name="Adult Nolan" alt="Adult Nolan: No Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Nolan_Baby.jpeg" alt="Baby Nolan">
+                    <p class="person_name">Nolan</p>
+                </div>
+            </div>
+        </div>
+        
+            <div class="grid-item">
+            <div class="accordian">
+                <input type="image" class="image-button" src="/project-3/asset/Darcy2_Adult.jpg" name="Adult Darcy" alt="Adult Darcy: Quote" />
+                <div class="accordian_content">
+                    <img class="baby_pictures" src="/project-3/asset/Darcy2_Baby.JPG" alt="Baby Darcy">
+                    <p class="person_name">Darcy</p>
+                    <p class="person_quote">"I included a picture with me and my mom because I was gonna talk about how I look pretty different from her."</p>
+                </div>
+            </div>
+        </div>
+        <!-- DO THIS TO THE REST OF THE PICTURES-->
+
+    </div>
+
+    <script>
+        document.querySelectorAll('.image-button').forEach(image => {
+            image.addEventListener('click', () => {
+                const accordianContent = image.nextElementSibling;
+                image.classList.toggle('image-button--active');
+
+                if (image.classList.contains('image-button--active')) {
+                    accordianContent.style.maxHeight = accordianContent.scrollHeight + 'px';
+                } else {
+                    accordianContent.style.maxHeight = 0;
+                }
+
+
+
+
+            });
+        });
+
+    </script>
 
 </body>
 

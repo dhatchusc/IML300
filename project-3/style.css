@@ -220,7 +220,14 @@ canvas {
 /* Galery page stuff*/
 .grid-container {
     display: grid;
+    width: 310px;
+/*    grid-template-rows: auto auto auto auto;*/
     grid-template-columns: auto auto auto auto;
+    
+}
+
+.grid-item {
+  padding: 15px 15px 15px 15px;
 }
 
 .image-button {
@@ -231,6 +238,10 @@ canvas {
     outline: none;
 }
 
+
+.accordian {
+    width: 300px;
+}
 .accordian_content {
     overflow: hidden;
     max-height: 0;
@@ -241,7 +252,7 @@ canvas {
 
 .baby_pictures {
     height: 300px;
-    width: 300x;
+    width: 300px;
     border: none;
     outline: none;
 }
@@ -254,10 +265,8 @@ canvas {
     font-size: 20px;
 }
 
-/*
-
 img {
   width: 300px;
   height: 300px;
 }
-*/
+
