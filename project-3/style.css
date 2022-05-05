@@ -3,6 +3,7 @@ body {
 }
 
 /* titles and text */
+
 a {
     text-decoration: none;
     color: #FFE600;
@@ -179,6 +180,14 @@ iframe {
 }
 
 
+/*info page*/
+
+.center_media {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* draw page stuff*/
 
 
@@ -280,4 +289,5 @@ img {
   height: 300px;
 }
 */
+
 
