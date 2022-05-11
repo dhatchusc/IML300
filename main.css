@@ -1,0 +1,15 @@
+body {
+    margin: 10px;
+    font-family: 'MuseoModerno', cursive;
+background: linear-gradient(141deg, #c900c6 0%, #4f11ab 25%,#3d4ee3 50%,  #00c3ff 75%);
+    padding: 10px;
+color: #fae3f8
+}
+
+a {
+  color: #fae3f8
+}
+
+a:hover {
+  color: #f294ea
+}
